@@ -102,7 +102,7 @@ public class BookStoreServiceTest {
 //        assertThat(actual.getMessage()).isEqualTo("");
 //        assertThat(actual.getBookDtos().size()).isEqualTo(1);
     }
-
+//xzxzxxz
     private void assertResult(ResultDto actual, ResultDto.Status expectedStatus, String expectedMesseaga, int expectedSize){
         assertThat(actual.getStatus()).isEqualTo(expectedStatus);
         assertThat(actual.getMessage()).isEqualTo(expectedMesseaga);
